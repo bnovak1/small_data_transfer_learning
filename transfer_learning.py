@@ -1,6 +1,25 @@
 """
 Part 2 of the Small Data Project Solution: Transfer Learning
-Using the VGG16 model for transfer learning
+Filling in the missing parts in transfer_learning_template.py 
+to create this was the main part of the project.
+
+This module sets up the data transformations, directories, and class names
+for the transfer learning task using the VGG16 model.
+
+Attributes
+----------
+data_groups : dict
+    Dictionary containing directory names for training, validation, and test data.
+class_names : list
+    List of class names derived from the training data directory.
+output_dir : pathlib.Path
+    Path object representing the output directory.
+mean : list
+    List of mean values for normalization.
+std : list
+    List of standard deviation values for normalization.
+image_transforms : dict
+    Dictionary containing image transformations for different data groups.
 """
 
 import glob
