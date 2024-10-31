@@ -1,1 +1,1 @@
-The goal was to classify vacation pictures using transfer learning starting from the VGG16 model.
+Udacity Small Data course (https://www.udacity.com/course/small-data--cd12528) transfer learning project. The main task was to fill in transfer_learning_template.py to produce transfer_learning.py. The goal was to classify vacation pictures using transfer learning starting from the VGG16 model.
